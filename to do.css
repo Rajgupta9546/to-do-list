@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1489353.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+.task-entry {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.task-entry input, .task-entry select, .task-entry button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-list li button {
+    margin-left: 10px;
+}
